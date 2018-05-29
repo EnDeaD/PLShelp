@@ -54,26 +54,29 @@
         background: #484642;
         text-align: center;
         box-sizing: border-box;
-        padding-top: 15px;
+        padding-top: 50px;
     }
     
     .links a {
         display: block;
         padding: 8px 10px;
         color: #fff;
-        font-size: 50px;
+        font-size: 30px;
         text-decoration: none;
     }
     
     .bg_img img {
         width: 420px;
         height: 380px;
-        margin-left: 340px;
         margin-top: 60px;
+        text-align: right;
     }
     
     .tuxt {
         margin-top: 134px;
+        text-align: right;
+        width: 300px;
+        margin-right: 50px;
     }
     
     h2 {
@@ -108,3 +111,15 @@
         text-align: center;
         font-size: 14px;
     }
+
+.signIn {
+    display: none;
+}
+
+.rattata input {
+    margin: 25px;
+}
+
+.signIn button {
+    display: flex;
+}
